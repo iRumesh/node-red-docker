@@ -1,0 +1,61 @@
+version: '3.9'
+
+services:
+
+  #https://nodered.org/docs/getting-started/docker
+  # nodered
+  nodered:
+    build: ./node-red
+    environment:
+      - TZ=Asia/Colombo
+    ports:
+      - "1880:1880"
+    volumes:
+      - node-red-data:/data
+    networks:
+      - iot-network
+
+  # # mosquitto
+  # mosquitto:
+  #   build:
+  #     context: ./mosquitto
+  #     dockerfile: Dockerfile
+  #     args:
+  #       - MOSQUITTO_VERSION=${MOSQUITTO_VERSION:-latest}
+  #   environment:
+  #     - MOSQUITTO_USERNAME=${MOSQUITTO_USERNAME}
+  #     - MOSQUITTO_PASSWORD=${MOSQUITTO_PASSWORD}
+  #   image: eclipse-mosquitto:${MOSQUITTO_VERSION:-latest}
+  #   container_name: eclipse-mosquitto
+  #   restart: always
+  #   volumes:
+  #     - ./mosquitto/data:/mosquitto/data
+  #     - ./mosquitto/log:/mosquitto/log
+  #   ports:
+  #     - 1883:1883
+  #   networks:
+  #     - iot-network
+  
+  # # # Use root/example as user/password credentials , TCP port:3306
+  # db:
+  #   image: mariadb:latest
+  #   container_name: mariadb
+  #   restart: unless-stopped
+  #   environment:
+  #     MARIADB_ROOT_PASSWORD: password
+  #   networks:
+  #     - iot-network
+  
+  # # Optional GUI for mariadb
+  # adminer:
+  #   image: adminer
+  #   restart: always
+  #   ports:
+  #     - 8080:8080
+
+networks:
+  iot-network: 
+    driver: bridge
+
+volumes:
+  node-red-data:

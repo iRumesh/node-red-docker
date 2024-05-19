@@ -1,0 +1,3285 @@
+[
+    {
+        "id": "95cdbca576f0da7a",
+        "type": "tab",
+        "label": "AquaMon_25_08_2023",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "49c2309b651e9d9f",
+        "type": "tab",
+        "label": "AquaMon",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "5a62f76f8bc887cf",
+        "type": "tab",
+        "label": "Practice",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "cde2ffad2631ccd1",
+        "type": "tab",
+        "label": "Rumesh_updated_Minimal",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "f6c2214374364b9e",
+        "type": "tab",
+        "label": "Senith_Aquadigital",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "fe626c7c54de7944",
+        "type": "tab",
+        "label": "Flow 3",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "b423fe24c1032040",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "9413ac4a36c65b6d",
+        "type": "tab",
+        "label": "SmartTerrarium_Senith",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "dd150301d78db693",
+        "type": "tab",
+        "label": "ESP32 MQTT",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "17db4b7616a71fc0",
+        "type": "tab",
+        "label": "Senith_Aquadigital",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "4179d1f227fc6454",
+        "type": "tab",
+        "label": "Flow 2",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "2069bda24c7c7ed8",
+        "type": "tab",
+        "label": "Rumesh_Test",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "e831e97d.9c2728",
+        "type": "mqtt-broker",
+        "name": "mosquitto",
+        "broker": "test.mosquitto.org",
+        "port": "1883",
+        "clientid": "TEST",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "e711f8ea.a9a1d8",
+        "type": "ui_group",
+        "name": "Control GPIO ESP32",
+        "tab": "9f8fbb0c.03d908",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "9f8fbb0c.03d908",
+        "type": "ui_tab",
+        "name": "Smart Home",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "59cc58e3a350cf78",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#02a7ed",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "Georgia,Georgia,serif",
+                "reset": false
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#0094CE",
+                    "edited": true
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#1bbfff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "9b62d743.81fb98",
+        "type": "mqtt-broker",
+        "name": "Auto_Mqtt",
+        "broker": "192.168.8.156",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "3",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "5faa95cd221e4d95",
+        "type": "database-config",
+        "name": "My Database",
+        "authType": "anonymous",
+        "claims": {},
+        "createUser": false,
+        "useClaims": false
+    },
+    {
+        "id": "dad42543ddf6822c",
+        "type": "ui_group",
+        "name": "Default",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "aa056f899a561343",
+        "type": "database-config",
+        "name": "Smart Terra",
+        "authType": "anonymous",
+        "claims": {},
+        "createUser": false,
+        "useClaims": false,
+        "info": "API Key : AIzaSyCxJmDcTECvXMk_9-RTKw8ck-zy7douA4o\r\nURL : https://esp32-to-firebase-48d58-default-rtdb.asia-southeast1.firebasedatabase.app/"
+    },
+    {
+        "id": "bc8d5bb81f82c263",
+        "type": "mqtt-broker",
+        "name": "mosquitto",
+        "broker": "test.mosquitto.org",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "120",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "7be4946d8e0d9b73",
+        "type": "database-config",
+        "name": "Embedded-Product-Dev",
+        "authType": "email",
+        "claims": {},
+        "createUser": true,
+        "useClaims": false
+    },
+    {
+        "id": "ab7b13ae.dc7ad8",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "test.mosquitto.org",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "compatmode": false,
+        "protocolVersion": "3",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "ce75918549ca0228",
+        "type": "inject",
+        "z": "95cdbca576f0da7a",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 160,
+        "y": 180,
+        "wires": [
+            [
+                "b789eb34d66c5772"
+            ]
+        ]
+    },
+    {
+        "id": "b76091c025cb9e4f",
+        "type": "firebase-out",
+        "z": "95cdbca576f0da7a",
+        "name": "",
+        "database": "",
+        "path": "Device1/RT/TDS",
+        "pathType": "str",
+        "priority": 1,
+        "queryType": "set",
+        "x": 700,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "b789eb34d66c5772",
+        "type": "function",
+        "z": "95cdbca576f0da7a",
+        "name": "function 8",
+        "func": "\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 400,
+        "y": 120,
+        "wires": [
+            [
+                "b76091c025cb9e4f",
+                "54599fca8eb630b9",
+                "d5d9c82b020e3140",
+                "3ed9c938c181ae26",
+                "0cfa077adf0acf43",
+                "642a6c6733973f94",
+                "72215ae716e51ed8",
+                "bff0788e0ca33123"
+            ]
+        ]
+    },
+    {
+        "id": "54599fca8eb630b9",
+        "type": "debug",
+        "z": "95cdbca576f0da7a",
+        "name": "TDS",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 650,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "d1df3eba660e8d2e",
+        "type": "firebase-out",
+        "z": "95cdbca576f0da7a",
+        "name": "",
+        "database": "",
+        "path": "Device1/DL/pH",
+        "pathType": "str",
+        "priority": 1,
+        "queryType": "push",
+        "x": 840,
+        "y": 720,
+        "wires": []
+    },
+    {
+        "id": "a9e606e5b935e52f",
+        "type": "debug",
+        "z": "95cdbca576f0da7a",
+        "name": "temperature",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 810,
+        "y": 780,
+        "wires": []
+    },
+    {
+        "id": "d5d9c82b020e3140",
+        "type": "firebase-out",
+        "z": "95cdbca576f0da7a",
+        "name": "",
+        "database": "",
+        "path": "Device1/RT/Temperature",
+        "pathType": "str",
+        "priority": 1,
+        "queryType": "set",
+        "x": 730,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "3ed9c938c181ae26",
+        "type": "debug",
+        "z": "95cdbca576f0da7a",
+        "name": "Temperature",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 670,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "0cfa077adf0acf43",
+        "type": "firebase-out",
+        "z": "95cdbca576f0da7a",
+        "name": "",
+        "database": "",
+        "path": "Device1/RT/pH",
+        "pathType": "str",
+        "priority": 1,
+        "queryType": "set",
+        "x": 700,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "642a6c6733973f94",
+        "type": "debug",
+        "z": "95cdbca576f0da7a",
+        "name": "pH",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 650,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "4e7050dffd85d2a6",
+        "type": "comment",
+        "z": "95cdbca576f0da7a",
+        "name": "Aquaculture realtime updates",
+        "info": "",
+        "x": 200,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "ae75e5bd3dc85549",
+        "type": "comment",
+        "z": "95cdbca576f0da7a",
+        "name": "Aquaculture datalog to FBRTDB",
+        "info": "",
+        "x": 210,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "140bc7b5c0ce05d8",
+        "type": "firebase-out",
+        "z": "95cdbca576f0da7a",
+        "name": "",
+        "database": "",
+        "path": "Device1/DL/TDS",
+        "pathType": "str",
+        "priority": 1,
+        "queryType": "push",
+        "x": 850,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "62422ef0dfa5d4ae",
+        "type": "debug",
+        "z": "95cdbca576f0da7a",
+        "name": "temperature",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 810,
+        "y": 660,
+        "wires": []
+    },
+    {
+        "id": "c5ce337d352631d3",
+        "type": "firebase-out",
+        "z": "95cdbca576f0da7a",
+        "name": "",
+        "database": "",
+        "path": "Device1/DL/temperature",
+        "pathType": "str",
+        "priority": 1,
+        "queryType": "push",
+        "x": 870,
+        "y": 840,
+        "wires": []
+    },
+    {
+        "id": "f433cbdc423c8f0d",
+        "type": "debug",
+        "z": "95cdbca576f0da7a",
+        "name": "temperature",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 810,
+        "y": 900,
+        "wires": []
+    },
+    {
+        "id": "a7f039a256c15b92",
+        "type": "inject",
+        "z": "95cdbca576f0da7a",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 160,
+        "y": 660,
+        "wires": [
+            [
+                "289dc74c2d384d1b"
+            ]
+        ]
+    },
+    {
+        "id": "289dc74c2d384d1b",
+        "type": "function",
+        "z": "95cdbca576f0da7a",
+        "name": "function 9",
+        "func": "\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 400,
+        "y": 600,
+        "wires": [
+            [
+                "140bc7b5c0ce05d8",
+                "62422ef0dfa5d4ae",
+                "d1df3eba660e8d2e",
+                "a9e606e5b935e52f",
+                "c5ce337d352631d3",
+                "f433cbdc423c8f0d",
+                "4865a54c517bfe07",
+                "941702dea96972ef"
+            ]
+        ]
+    },
+    {
+        "id": "4865a54c517bfe07",
+        "type": "firebase-out",
+        "z": "95cdbca576f0da7a",
+        "name": "",
+        "database": "",
+        "path": "Device1/DL/time",
+        "pathType": "str",
+        "priority": 1,
+        "queryType": "push",
+        "x": 850,
+        "y": 980,
+        "wires": []
+    },
+    {
+        "id": "941702dea96972ef",
+        "type": "debug",
+        "z": "95cdbca576f0da7a",
+        "name": "time",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 790,
+        "y": 1040,
+        "wires": []
+    },
+    {
+        "id": "72215ae716e51ed8",
+        "type": "firebase-out",
+        "z": "95cdbca576f0da7a",
+        "name": "",
+        "database": "",
+        "path": "Device1/RT/time",
+        "pathType": "str",
+        "priority": 1,
+        "queryType": "set",
+        "x": 700,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "bff0788e0ca33123",
+        "type": "debug",
+        "z": "95cdbca576f0da7a",
+        "name": "time",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 650,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "2f8b528fd05023cd",
+        "type": "comment",
+        "z": "95cdbca576f0da7a",
+        "name": "Aquaculture Device Details",
+        "info": "",
+        "x": 190,
+        "y": 1100,
+        "wires": []
+    },
+    {
+        "id": "4381f4d6d52ec43a",
+        "type": "inject",
+        "z": "95cdbca576f0da7a",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "Device ID",
+        "payloadType": "str",
+        "x": 140,
+        "y": 1160,
+        "wires": [
+            [
+                "5dcc035d3ae34d23"
+            ]
+        ]
+    },
+    {
+        "id": "5dcc035d3ae34d23",
+        "type": "firebase-out",
+        "z": "95cdbca576f0da7a",
+        "name": "",
+        "database": "",
+        "path": "Device ID",
+        "pathType": "str",
+        "priority": 1,
+        "queryType": "set",
+        "x": 480,
+        "y": 1160,
+        "wires": []
+    },
+    {
+        "id": "3b4760b2526fa00c",
+        "type": "firebase-out",
+        "z": "49c2309b651e9d9f",
+        "name": "",
+        "database": "",
+        "path": "Aquaculture/TDS",
+        "pathType": "str",
+        "priority": 1,
+        "queryType": "set",
+        "x": 920,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "cf0060e46e73a31a",
+        "type": "debug",
+        "z": "49c2309b651e9d9f",
+        "name": "TDS",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 870,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "2a882dedb4c18369",
+        "type": "firebase-out",
+        "z": "49c2309b651e9d9f",
+        "name": "",
+        "database": "",
+        "path": "2 Temperature",
+        "pathType": "str",
+        "priority": 1,
+        "queryType": "push",
+        "x": 920,
+        "y": 740,
+        "wires": []
+    },
+    {
+        "id": "9a16892fcd3a87e4",
+        "type": "debug",
+        "z": "49c2309b651e9d9f",
+        "name": "temperature",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 890,
+        "y": 800,
+        "wires": []
+    },
+    {
+        "id": "cd074a4a45165eae",
+        "type": "firebase-out",
+        "z": "49c2309b651e9d9f",
+        "name": "",
+        "database": "",
+        "path": "Aquaculture/Temperature",
+        "pathType": "str",
+        "priority": 1,
+        "queryType": "set",
+        "x": 950,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "274b286d7063fbf1",
+        "type": "debug",
+        "z": "49c2309b651e9d9f",
+        "name": "Temperature",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 890,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "aaeb9f9959269561",
+        "type": "firebase-out",
+        "z": "49c2309b651e9d9f",
+        "name": "",
+        "database": "",
+        "path": "Aquaculture/pH",
+        "pathType": "str",
+        "priority": 1,
+        "queryType": "set",
+        "x": 920,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "50a203f4894fcdec",
+        "type": "debug",
+        "z": "49c2309b651e9d9f",
+        "name": "pH",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 870,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "4d2a35530d8864db",
+        "type": "comment",
+        "z": "49c2309b651e9d9f",
+        "name": "Aquaculture realtime updates",
+        "info": "",
+        "x": 940,
+        "y": 20,
+        "wires": []
+    },
+    {
+        "id": "c2d42da95c8f6df2",
+        "type": "comment",
+        "z": "49c2309b651e9d9f",
+        "name": "Aquaculture datalog to FBRTDB",
+        "info": "",
+        "x": 950,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "3e29b1a8bcfd3a25",
+        "type": "firebase-out",
+        "z": "49c2309b651e9d9f",
+        "name": "",
+        "database": "",
+        "path": "1 TDS",
+        "pathType": "str",
+        "priority": 1,
+        "queryType": "push",
+        "x": 890,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "60ad68edc5ff9b20",
+        "type": "debug",
+        "z": "49c2309b651e9d9f",
+        "name": "temperature",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 890,
+        "y": 680,
+        "wires": []
+    },
+    {
+        "id": "fc15eaa4210da1a9",
+        "type": "firebase-out",
+        "z": "49c2309b651e9d9f",
+        "name": "",
+        "database": "",
+        "path": "3 pH",
+        "pathType": "str",
+        "priority": 1,
+        "queryType": "push",
+        "x": 890,
+        "y": 860,
+        "wires": []
+    },
+    {
+        "id": "0e596ae9a0c856d6",
+        "type": "debug",
+        "z": "49c2309b651e9d9f",
+        "name": "temperature",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 890,
+        "y": 920,
+        "wires": []
+    },
+    {
+        "id": "4c2bbaa221a0374d",
+        "type": "function",
+        "z": "49c2309b651e9d9f",
+        "name": "function 10",
+        "func": "\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1250,
+        "y": 80,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "adb3d0601e07c3fd",
+        "type": "firebase-out",
+        "z": "49c2309b651e9d9f",
+        "name": "",
+        "database": "",
+        "path": "0 Time Stamps",
+        "pathType": "str",
+        "priority": 1,
+        "queryType": "push",
+        "x": 920,
+        "y": 980,
+        "wires": []
+    },
+    {
+        "id": "3f7776835b460d93",
+        "type": "function",
+        "z": "49c2309b651e9d9f",
+        "name": "function 8",
+        "func": "\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1240,
+        "y": 40,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "bf21e88412e8ef5b",
+        "type": "firebase-out",
+        "z": "49c2309b651e9d9f",
+        "name": "",
+        "database": "",
+        "path": "Aquaculture/Time",
+        "pathType": "str",
+        "priority": 1,
+        "queryType": "set",
+        "x": 920,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "2f91950d4416e5a8",
+        "type": "mqtt in",
+        "z": "49c2309b651e9d9f",
+        "name": "",
+        "topic": "TDS_Aqua",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 140,
+        "y": 420,
+        "wires": [
+            [
+                "3b4760b2526fa00c",
+                "3e29b1a8bcfd3a25",
+                "cf0060e46e73a31a"
+            ]
+        ]
+    },
+    {
+        "id": "3b2f0858b769dda8",
+        "type": "mqtt in",
+        "z": "49c2309b651e9d9f",
+        "name": "",
+        "topic": "Temperature_Aqua",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 110,
+        "y": 520,
+        "wires": [
+            [
+                "cd074a4a45165eae",
+                "2a882dedb4c18369",
+                "274b286d7063fbf1"
+            ]
+        ]
+    },
+    {
+        "id": "3852f31b9011e6ea",
+        "type": "mqtt in",
+        "z": "49c2309b651e9d9f",
+        "name": "",
+        "topic": "pH_Aqua",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 140,
+        "y": 620,
+        "wires": [
+            [
+                "aaeb9f9959269561",
+                "fc15eaa4210da1a9",
+                "50a203f4894fcdec"
+            ]
+        ]
+    },
+    {
+        "id": "580b353d4658156a",
+        "type": "mqtt in",
+        "z": "49c2309b651e9d9f",
+        "name": "",
+        "topic": "Time_Aqua",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 130,
+        "y": 720,
+        "wires": [
+            [
+                "bf21e88412e8ef5b",
+                "adb3d0601e07c3fd"
+            ]
+        ]
+    },
+    {
+        "id": "27efbaa3a4bbd646",
+        "type": "mqtt in",
+        "z": "5a62f76f8bc887cf",
+        "name": "MQTT In",
+        "topic": "dht22/data",
+        "qos": "0",
+        "datatype": "auto",
+        "broker": "e831e97d.9c2728",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 240,
+        "y": 280,
+        "wires": [
+            [
+                "da832bcc5afe7c5a",
+                "1f00c2674d95beb5"
+            ]
+        ]
+    },
+    {
+        "id": "da832bcc5afe7c5a",
+        "type": "function",
+        "z": "5a62f76f8bc887cf",
+        "name": "Process Data",
+        "func": "var data = JSON.parse(msg.payload);\nmsg.payload = {\n    temperature: data.temperature,\n    humidity: data.humidity\n};\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 500,
+        "y": 320,
+        "wires": [
+            [
+                "b3d446cda9d36006",
+                "8688effd41ef50c7"
+            ]
+        ]
+    },
+    {
+        "id": "1f00c2674d95beb5",
+        "type": "debug",
+        "z": "5a62f76f8bc887cf",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 480,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "b3d446cda9d36006",
+        "type": "debug",
+        "z": "5a62f76f8bc887cf",
+        "name": "debug 2",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 720,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "8688effd41ef50c7",
+        "type": "firebase-out",
+        "z": "5a62f76f8bc887cf",
+        "name": "",
+        "database": "",
+        "path": "dht22/data",
+        "pathType": "str",
+        "priority": 1,
+        "queryType": "push",
+        "x": 850,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "6174232dc283778c",
+        "type": "inject",
+        "z": "5a62f76f8bc887cf",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "temperature",
+        "payloadType": "str",
+        "x": 250,
+        "y": 360,
+        "wires": [
+            [
+                "1f00c2674d95beb5",
+                "da832bcc5afe7c5a"
+            ]
+        ]
+    },
+    {
+        "id": "b52437644dc9ccf2",
+        "type": "inject",
+        "z": "5a62f76f8bc887cf",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 220,
+        "y": 440,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4b4e1b31cd25d192",
+        "type": "function",
+        "z": "cde2ffad2631ccd1",
+        "name": "Process Data",
+        "func": "var data = JSON.parse(msg.payload);\nmsg.payload = {\n    time: data.time,\n    temperature: data.temperature,\n    pH: data.pH,\n    TDS: data.TDS\n};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 500,
+        "y": 320,
+        "wires": [
+            [
+                "228c9281c32b4237",
+                "31b3d07ae0dccefb",
+                "bc8910f9d38cd634"
+            ]
+        ]
+    },
+    {
+        "id": "228c9281c32b4237",
+        "type": "debug",
+        "z": "cde2ffad2631ccd1",
+        "name": "debug 2",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 720,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "31b3d07ae0dccefb",
+        "type": "firebase-out",
+        "z": "cde2ffad2631ccd1",
+        "name": "",
+        "database": "aa056f899a561343",
+        "path": "Device01/DL",
+        "pathType": "str",
+        "priority": 1,
+        "queryType": "push",
+        "x": 850,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "fe678fe75d03c009",
+        "type": "debug",
+        "z": "cde2ffad2631ccd1",
+        "name": "debug 3",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 500,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "b70491cbad1a826c",
+        "type": "mqtt in",
+        "z": "cde2ffad2631ccd1",
+        "name": "MQTT In",
+        "topic": "aqua/data",
+        "qos": "0",
+        "datatype": "auto",
+        "broker": "",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 260,
+        "y": 300,
+        "wires": [
+            [
+                "4b4e1b31cd25d192",
+                "fe678fe75d03c009"
+            ]
+        ]
+    },
+    {
+        "id": "bc8910f9d38cd634",
+        "type": "firebase-out",
+        "z": "cde2ffad2631ccd1",
+        "name": "",
+        "database": "aa056f899a561343",
+        "path": "Device01/RT",
+        "pathType": "str",
+        "priority": 1,
+        "queryType": "update",
+        "x": 860,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "39a4fdf418a13b9f",
+        "type": "comment",
+        "z": "cde2ffad2631ccd1",
+        "name": "",
+        "info": "",
+        "x": 240,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "881f9ee4d4514b8e",
+        "type": "inject",
+        "z": "cde2ffad2631ccd1",
+        "name": "Inject Data",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "7",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"time\": 1111, \"temperature\": 25.5, \"pH\": 7, \"TDS\": 500}",
+        "payloadType": "str",
+        "x": 270,
+        "y": 200,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "43c172ace78e15e4",
+        "type": "function",
+        "z": "f6c2214374364b9e",
+        "name": "Process Data",
+        "func": "var inputString = msg.payload;\nvar jsonString = inputString.replace(/'/g, '\"');\n\n//var correctedString = inputString.replace(/(\\d{2}:\\d{2}:\\d{4}_\\d{2}:\\d{2}:\\d{2})/g, '\"$1\"');\n//var data = JSON.parse(correctedString);\nvar data = JSON.parse(jsonString);\n\nvar currentDate = new Date();\n\nvar day = currentDate.getDate().toString().padStart(2, '0');\nvar month = (currentDate.getMonth() + 1).toString().padStart(2, '0');\nvar year = currentDate.getFullYear();\nvar hours = currentDate.getHours().toString().padStart(2, '0');\nvar minutes = currentDate.getMinutes().toString().padStart(2, '0');\nvar seconds = currentDate.getSeconds().toString().padStart(2, '0');\n\n// Create the formatted date string\nvar formattedDate = `${day}:${month}:${year}_${hours}:${minutes}:${seconds}`;\n\nmsg.payload = {\n    time: formattedDate,\n    temperature: data.temperature,\n    pH: data.pH,\n    TDS: data.TDS\n};\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 500,
+        "y": 320,
+        "wires": [
+            [
+                "3b842e7f9259999b",
+                "10820b2d4c258b24",
+                "82d2e3cdc3db0db7"
+            ]
+        ]
+    },
+    {
+        "id": "3b842e7f9259999b",
+        "type": "debug",
+        "z": "f6c2214374364b9e",
+        "name": "debug 2",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 720,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "10820b2d4c258b24",
+        "type": "firebase-out",
+        "z": "f6c2214374364b9e",
+        "name": "",
+        "database": "",
+        "path": "Device01/DL",
+        "pathType": "str",
+        "priority": 1,
+        "queryType": "push",
+        "x": 850,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "95654a3629f19a18",
+        "type": "inject",
+        "z": "f6c2214374364b9e",
+        "name": "Inject Data",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "7",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{'temperature':25.5,'pH':7,'TDS':500}",
+        "payloadType": "str",
+        "x": 250,
+        "y": 200,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a8fc22bd9515123d",
+        "type": "debug",
+        "z": "f6c2214374364b9e",
+        "name": "debug 3",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 500,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "6e39ba5a2e11cb77",
+        "type": "mqtt in",
+        "z": "f6c2214374364b9e",
+        "name": "MQTT In",
+        "topic": "sen/randomNumber",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 260,
+        "y": 300,
+        "wires": [
+            [
+                "a8fc22bd9515123d",
+                "43c172ace78e15e4"
+            ]
+        ]
+    },
+    {
+        "id": "82d2e3cdc3db0db7",
+        "type": "firebase-out",
+        "z": "f6c2214374364b9e",
+        "name": "",
+        "database": "",
+        "path": "Device01/RT",
+        "pathType": "str",
+        "priority": 1,
+        "queryType": "update",
+        "x": 860,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "d1c0076cabf9cc12",
+        "type": "comment",
+        "z": "f6c2214374364b9e",
+        "name": "",
+        "info": "URL : https://embedded-product-dev-default-rtdb.firebaseio.com/\nAPI : AIzaSyC8c3DF8JW4ifg3cadoySUkGKcVtj469lY",
+        "x": 880,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "9ad1ba118c543a37",
+        "type": "firebase-in",
+        "z": "fe626c7c54de7944",
+        "name": "",
+        "constraint": {},
+        "database": "",
+        "listenerType": "value",
+        "outputType": "auto",
+        "path": "Device02/actions",
+        "useConstraint": false,
+        "x": 180,
+        "y": 540,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "0474cacbb6da0bc8",
+        "type": "debug",
+        "z": "fe626c7c54de7944",
+        "name": "debug 2",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 380,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "8a384f72ba57282e",
+        "type": "firebase-out",
+        "z": "fe626c7c54de7944",
+        "name": "",
+        "database": "",
+        "path": "Device02/test",
+        "pathType": "str",
+        "priority": 1,
+        "queryType": "set",
+        "x": 410,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "15ce1e74a2d932f9",
+        "type": "inject",
+        "z": "fe626c7c54de7944",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 160,
+        "y": 460,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2843039c1c93a450",
+        "type": "inject",
+        "z": "fe626c7c54de7944",
+        "name": "",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "1",
+        "x": 670,
+        "y": 160,
+        "wires": [
+            [
+                "d67f5a4751bab1d9",
+                "640576833e21356c"
+            ]
+        ]
+    },
+    {
+        "id": "468fc1a8c8298667",
+        "type": "debug",
+        "z": "fe626c7c54de7944",
+        "name": "debug 5",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1120,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "d67f5a4751bab1d9",
+        "type": "ui_switch",
+        "z": "fe626c7c54de7944",
+        "name": "",
+        "label": "Relay1",
+        "tooltip": "",
+        "group": "",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "",
+        "topicType": "str",
+        "style": "",
+        "onvalue": "1",
+        "onvalueType": "num",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "0",
+        "offvalueType": "num",
+        "officon": "",
+        "offcolor": "",
+        "animate": true,
+        "className": "",
+        "x": 900,
+        "y": 160,
+        "wires": [
+            [
+                "468fc1a8c8298667"
+            ]
+        ]
+    },
+    {
+        "id": "640576833e21356c",
+        "type": "ui_button",
+        "z": "fe626c7c54de7944",
+        "name": "",
+        "group": "",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "button",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "button pressed",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 890,
+        "y": 220,
+        "wires": [
+            [
+                "30ec3ac5b3296a62"
+            ]
+        ]
+    },
+    {
+        "id": "bcb3765f098de4b2",
+        "type": "mqtt in",
+        "z": "fe626c7c54de7944",
+        "name": "",
+        "topic": "rumesh",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "e831e97d.9c2728",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 150,
+        "y": 220,
+        "wires": [
+            [
+                "5c247acd413c649b"
+            ]
+        ]
+    },
+    {
+        "id": "178cd7fb3cd5bbf7",
+        "type": "mqtt out",
+        "z": "fe626c7c54de7944",
+        "name": "",
+        "topic": "rumesh",
+        "qos": "2",
+        "retain": "true",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "e831e97d.9c2728",
+        "x": 340,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "5c247acd413c649b",
+        "type": "debug",
+        "z": "fe626c7c54de7944",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 320,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "2f667267b17eb43d",
+        "type": "inject",
+        "z": "fe626c7c54de7944",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 160,
+        "y": 160,
+        "wires": [
+            [
+                "178cd7fb3cd5bbf7"
+            ]
+        ]
+    },
+    {
+        "id": "ae6e70fe98e639de",
+        "type": "comment",
+        "z": "fe626c7c54de7944",
+        "name": "ref",
+        "info": "https://www.youtube.com/watch?v=bayLivAUb7A",
+        "x": 150,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "e0e2aef123e8801d",
+        "type": "mqtt in",
+        "z": "fe626c7c54de7944",
+        "name": "",
+        "topic": "rumesh",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "e831e97d.9c2728",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 150,
+        "y": 400,
+        "wires": [
+            [
+                "8a384f72ba57282e"
+            ]
+        ]
+    },
+    {
+        "id": "c21c7266c302a261",
+        "type": "comment",
+        "z": "fe626c7c54de7944",
+        "name": "Firebase operations",
+        "info": "Firebase",
+        "x": 190,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "11ca884212f16fed",
+        "type": "mqtt out",
+        "z": "fe626c7c54de7944",
+        "name": "",
+        "topic": "rumesh1",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "",
+        "x": 380,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "24cc317b01817a5a",
+        "type": "mqtt in",
+        "z": "fe626c7c54de7944",
+        "name": "",
+        "topic": "rumesh1",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 200,
+        "y": 700,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9ad384285a5bdd6c",
+        "type": "firebase-out",
+        "z": "fe626c7c54de7944",
+        "name": "",
+        "database": "",
+        "path": "Device02/actions",
+        "pathType": "str",
+        "priority": 1,
+        "queryType": "push",
+        "x": 430,
+        "y": 700,
+        "wires": []
+    },
+    {
+        "id": "30ec3ac5b3296a62",
+        "type": "mqtt out",
+        "z": "fe626c7c54de7944",
+        "name": "",
+        "topic": "rumesh1",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "",
+        "x": 1120,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "03664f1c859d1592",
+        "type": "firebase-out",
+        "z": "fe626c7c54de7944",
+        "name": "",
+        "database": "",
+        "path": "Device02/actions",
+        "pathType": "str",
+        "priority": 1,
+        "queryType": "push",
+        "x": 430,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "016a0c1e34c2ed4f",
+        "type": "firebase-out",
+        "z": "fe626c7c54de7944",
+        "name": "",
+        "database": "",
+        "path": "Device02/actions1",
+        "pathType": "str",
+        "priority": 1,
+        "queryType": "push",
+        "x": 1170,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "9748d654501bd827",
+        "type": "ui_switch",
+        "z": "fe626c7c54de7944",
+        "name": "",
+        "label": "switch",
+        "tooltip": "",
+        "group": "",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "1",
+        "onvalueType": "num",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "0",
+        "offvalueType": "num",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 1010,
+        "y": 520,
+        "wires": [
+            [
+                "e32e165c7481c141"
+            ]
+        ]
+    },
+    {
+        "id": "74c9e5672c640c3e",
+        "type": "inject",
+        "z": "fe626c7c54de7944",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "1",
+        "payloadType": "str",
+        "x": 850,
+        "y": 520,
+        "wires": [
+            [
+                "9748d654501bd827"
+            ]
+        ]
+    },
+    {
+        "id": "e32e165c7481c141",
+        "type": "debug",
+        "z": "fe626c7c54de7944",
+        "name": "debug 6",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1180,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "3b0e6d8c953c10ba",
+        "type": "comment",
+        "z": "fe626c7c54de7944",
+        "name": "",
+        "info": "https://www.youtube.com/watch?v=QfC2N-nfT-U",
+        "x": 840,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "cae53ee13a9d89cd",
+        "type": "firebase-out",
+        "z": "fe626c7c54de7944",
+        "name": "",
+        "database": "",
+        "path": "Device02/actions1",
+        "pathType": "str",
+        "priority": 1,
+        "queryType": "push",
+        "x": 1210,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "2267c443e148109c",
+        "type": "function",
+        "z": "fe626c7c54de7944",
+        "name": "function 11",
+        "func": "\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 930,
+        "y": 720,
+        "wires": [
+            [
+                "b00afe633a1a1bc8",
+                "d2d42fb27c247621"
+            ]
+        ]
+    },
+    {
+        "id": "73b3f99975e19199",
+        "type": "mqtt in",
+        "z": "fe626c7c54de7944",
+        "name": "",
+        "topic": "",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 750,
+        "y": 720,
+        "wires": [
+            [
+                "2267c443e148109c"
+            ]
+        ]
+    },
+    {
+        "id": "b00afe633a1a1bc8",
+        "type": "ui_switch",
+        "z": "fe626c7c54de7944",
+        "name": "",
+        "label": "switch",
+        "tooltip": "",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": true,
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": false,
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 1110,
+        "y": 720,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d2d42fb27c247621",
+        "type": "firebase-out",
+        "z": "fe626c7c54de7944",
+        "name": "",
+        "database": "",
+        "path": "topic",
+        "pathType": "msg",
+        "priority": 1,
+        "queryType": "none",
+        "x": 1130,
+        "y": 780,
+        "wires": []
+    },
+    {
+        "id": "7cb0b85ad3f38595",
+        "type": "firebase-in",
+        "z": "fe626c7c54de7944",
+        "name": "",
+        "constraint": {},
+        "database": "",
+        "listenerType": "value",
+        "outputType": "auto",
+        "path": "test/stream",
+        "useConstraint": false,
+        "x": 760,
+        "y": 920,
+        "wires": [
+            [
+                "8245d9c12546fbb1"
+            ]
+        ]
+    },
+    {
+        "id": "8245d9c12546fbb1",
+        "type": "mqtt out",
+        "z": "fe626c7c54de7944",
+        "name": "",
+        "topic": "",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "",
+        "x": 970,
+        "y": 920,
+        "wires": []
+    },
+    {
+        "id": "4ddccdf60821df96",
+        "type": "comment",
+        "z": "fe626c7c54de7944",
+        "name": "Manual Operation",
+        "info": "",
+        "x": 790,
+        "y": 860,
+        "wires": []
+    },
+    {
+        "id": "f96c40b95dc5f4d7",
+        "type": "mqtt in",
+        "z": "fe626c7c54de7944",
+        "name": "",
+        "topic": "led/control",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 540,
+        "y": 1080,
+        "wires": [
+            [
+                "0849acb9973603f5"
+            ]
+        ]
+    },
+    {
+        "id": "0849acb9973603f5",
+        "type": "debug",
+        "z": "fe626c7c54de7944",
+        "name": "debug 7",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 720,
+        "y": 1080,
+        "wires": []
+    },
+    {
+        "id": "c9070ab1c11b21cc",
+        "type": "mqtt out",
+        "z": "fe626c7c54de7944",
+        "name": "",
+        "topic": "led/control",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "",
+        "x": 690,
+        "y": 1240,
+        "wires": []
+    },
+    {
+        "id": "ea0ddf4d899079cc",
+        "type": "ui_switch",
+        "z": "fe626c7c54de7944",
+        "name": "",
+        "label": "Output",
+        "tooltip": "",
+        "group": "",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "",
+        "topicType": "str",
+        "style": "",
+        "onvalue": "ON",
+        "onvalueType": "str",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "OFF",
+        "offvalueType": "str",
+        "officon": "",
+        "offcolor": "",
+        "animate": true,
+        "className": "",
+        "x": 549,
+        "y": 1240,
+        "wires": [
+            [
+                "c9070ab1c11b21cc"
+            ]
+        ]
+    },
+    {
+        "id": "2028162cbc6b8a45",
+        "type": "mqtt out",
+        "z": "b423fe24c1032040",
+        "name": "",
+        "topic": "control_data",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "9b62d743.81fb98",
+        "x": 770,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "7b9692c650309938",
+        "type": "mqtt in",
+        "z": "b423fe24c1032040",
+        "name": "",
+        "topic": "sensor/readings",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "9b62d743.81fb98",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 480,
+        "y": 540,
+        "wires": [
+            [
+                "34b2a5874119fb9c",
+                "4d5da8c06d33b22e"
+            ]
+        ]
+    },
+    {
+        "id": "34b2a5874119fb9c",
+        "type": "debug",
+        "z": "b423fe24c1032040",
+        "name": "debug 3",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 700,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "c24384f1017691ea",
+        "type": "firebase-out",
+        "z": "b423fe24c1032040",
+        "name": "Manual Mode",
+        "database": "5faa95cd221e4d95",
+        "path": "/Manual Mode",
+        "pathType": "str",
+        "priority": 1,
+        "queryType": "set",
+        "x": 1040,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "b25deda5774e6209",
+        "type": "ui_switch",
+        "z": "b423fe24c1032040",
+        "name": "",
+        "label": "FAN switch",
+        "tooltip": "",
+        "group": "dad42543ddf6822c",
+        "order": 14,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "control_data",
+        "topicType": "str",
+        "style": "",
+        "onvalue": "FanOn",
+        "onvalueType": "str",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "FanOff",
+        "offvalueType": "str",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 470,
+        "y": 220,
+        "wires": [
+            [
+                "2028162cbc6b8a45",
+                "97f635ebe63a1ca7"
+            ]
+        ]
+    },
+    {
+        "id": "f2107fcf31799676",
+        "type": "ui_switch",
+        "z": "b423fe24c1032040",
+        "name": "",
+        "label": "LED switch",
+        "tooltip": "",
+        "group": "dad42543ddf6822c",
+        "order": 13,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "control_data",
+        "topicType": "str",
+        "style": "",
+        "onvalue": "LEDOn",
+        "onvalueType": "str",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "LEDOff",
+        "offvalueType": "str",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 470,
+        "y": 280,
+        "wires": [
+            [
+                "2028162cbc6b8a45",
+                "97f635ebe63a1ca7"
+            ]
+        ]
+    },
+    {
+        "id": "9458e364dad18f4f",
+        "type": "ui_switch",
+        "z": "b423fe24c1032040",
+        "name": "",
+        "label": "Sprinkler switch",
+        "tooltip": "",
+        "group": "dad42543ddf6822c",
+        "order": 12,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "control_data",
+        "topicType": "str",
+        "style": "",
+        "onvalue": "ServoOn",
+        "onvalueType": "str",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "ServoOff",
+        "offvalueType": "str",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 480,
+        "y": 340,
+        "wires": [
+            [
+                "2028162cbc6b8a45",
+                "97f635ebe63a1ca7"
+            ]
+        ]
+    },
+    {
+        "id": "97f635ebe63a1ca7",
+        "type": "function",
+        "z": "b423fe24c1032040",
+        "name": "Manual Mode",
+        "func": "// Input data from your previous node\nvar inputData = msg.payload;\n\n// Initialize variables for Fan, LED, and Servo\nvar fanValue = 0;\nvar ledValue = 0;\nvar servoValue = 0;\n\n// Check the value of \"Fan\" and update it to 1 if it's \"FanOn\"\nif (inputData === \"FanOn\") {\n    fanValue = 1;\n}\n\n// Check the value of \"LED\" and update it to 1 if it's \"LEDOn\"\nif (inputData === \"LEDOn\") {\n    ledValue = 1;\n}\n\n// Check the value of \"Servo\" and update it to 1 if it's \"ServoOn\"\nif (inputData === \"ServoOn\") {\n    servoValue = 1;\n}\n\n// Create a new object with the updated values\nvar newData = {\n        \"Fan\": fanValue,\n        \"LED\": ledValue,\n        \"Sprinkler\": servoValue\n};\n\n// Send the modified data to the next node\nmsg.payload = newData;\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 780,
+        "y": 300,
+        "wires": [
+            [
+                "c24384f1017691ea"
+            ]
+        ]
+    },
+    {
+        "id": "b577e7e17907068d",
+        "type": "function",
+        "z": "b423fe24c1032040",
+        "name": "Auto Mode",
+        "func": "if (msg.payload === \"autoOn\") {\n    msg.payload = 1; // Send 1 when autoOn is received\n} else if (msg.payload === \"autoOff\") {\n    msg.payload = 0; // Send 0 when autoOff is received\n}\n\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 770,
+        "y": 360,
+        "wires": [
+            [
+                "9b4c9e473489f030"
+            ]
+        ]
+    },
+    {
+        "id": "9b4c9e473489f030",
+        "type": "firebase-out",
+        "z": "b423fe24c1032040",
+        "name": "Auto Mode",
+        "database": "5faa95cd221e4d95",
+        "path": "/Auto Mode",
+        "pathType": "str",
+        "priority": 1,
+        "queryType": "set",
+        "x": 1030,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "c6151b606b15dca8",
+        "type": "ui_switch",
+        "z": "b423fe24c1032040",
+        "name": "",
+        "label": "Auto switch",
+        "tooltip": "",
+        "group": "dad42543ddf6822c",
+        "order": 10,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "control_data",
+        "topicType": "str",
+        "style": "",
+        "onvalue": "autoOn",
+        "onvalueType": "str",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "autoOff",
+        "offvalueType": "str",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 470,
+        "y": 440,
+        "wires": [
+            [
+                "b577e7e17907068d",
+                "2028162cbc6b8a45"
+            ]
+        ]
+    },
+    {
+        "id": "4d5da8c06d33b22e",
+        "type": "firebase-out",
+        "z": "b423fe24c1032040",
+        "name": "Sensor Readings",
+        "database": "5faa95cd221e4d95",
+        "path": "/Sensor Readings",
+        "pathType": "str",
+        "priority": 1,
+        "queryType": "set",
+        "x": 830,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "9b2df5c93a998f93",
+        "type": "firebase-in",
+        "z": "9413ac4a36c65b6d",
+        "name": "",
+        "constraint": {},
+        "database": "aa056f899a561343",
+        "listenerType": "value",
+        "outputType": "auto",
+        "path": "Device02/actuators-manual",
+        "useConstraint": false,
+        "x": 230,
+        "y": 160,
+        "wires": [
+            [
+                "af64a64edf9e5a10",
+                "a77eba784fb7bd8d"
+            ]
+        ],
+        "info": "Path : Device02/actuators-manual"
+    },
+    {
+        "id": "af64a64edf9e5a10",
+        "type": "debug",
+        "z": "9413ac4a36c65b6d",
+        "name": "debug 10",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 560,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "a77eba784fb7bd8d",
+        "type": "mqtt out",
+        "z": "9413ac4a36c65b6d",
+        "name": "SmartTerrarium/sub",
+        "topic": "SmartTerrarium/sub",
+        "qos": "1",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "bc8d5bb81f82c263",
+        "x": 590,
+        "y": 160,
+        "wires": [],
+        "info": "Topic : SmartTerrarium/sub"
+    },
+    {
+        "id": "295581df3061144c",
+        "type": "mqtt out",
+        "z": "dd150301d78db693",
+        "name": "",
+        "topic": "event/sub",
+        "qos": "2",
+        "retain": "false",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "e831e97d.9c2728",
+        "x": 440,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "4935b679150d501d",
+        "type": "ui_button",
+        "z": "dd150301d78db693",
+        "name": "",
+        "group": "e711f8ea.a9a1d8",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "On GPIO",
+        "tooltip": "",
+        "color": "white",
+        "bgcolor": "",
+        "className": "",
+        "icon": "fa-circle",
+        "payload": "1",
+        "payloadType": "str",
+        "topic": "",
+        "topicType": "str",
+        "x": 180,
+        "y": 440,
+        "wires": [
+            [
+                "295581df3061144c",
+                "bfa6d4a4c1ead3e5"
+            ]
+        ]
+    },
+    {
+        "id": "5bfc3e21374977a6",
+        "type": "ui_button",
+        "z": "dd150301d78db693",
+        "name": "",
+        "group": "e711f8ea.a9a1d8",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Off GPIO",
+        "tooltip": "",
+        "color": "black",
+        "bgcolor": "",
+        "className": "",
+        "icon": "fa-circle-o",
+        "payload": "0",
+        "payloadType": "str",
+        "topic": "",
+        "topicType": "str",
+        "x": 183,
+        "y": 482,
+        "wires": [
+            [
+                "295581df3061144c",
+                "9ef744525ebefd2a"
+            ]
+        ]
+    },
+    {
+        "id": "64e72f3fca08a6c5",
+        "type": "mqtt in",
+        "z": "dd150301d78db693",
+        "d": true,
+        "name": "",
+        "topic": "event/pub",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "bc8d5bb81f82c263",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 160,
+        "y": 160,
+        "wires": [
+            [
+                "68c0c13f5b1d9c13"
+            ]
+        ]
+    },
+    {
+        "id": "68c0c13f5b1d9c13",
+        "type": "debug",
+        "z": "dd150301d78db693",
+        "name": "debug 7",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 360,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "bfa6d4a4c1ead3e5",
+        "type": "debug",
+        "z": "dd150301d78db693",
+        "name": "debug 8",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 440,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "9ef744525ebefd2a",
+        "type": "debug",
+        "z": "dd150301d78db693",
+        "name": "debug 9",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 440,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "e2535f52d9347289",
+        "type": "comment",
+        "z": "dd150301d78db693",
+        "name": "ESP32 GPIO Control MQTT",
+        "info": "Palette\n\nnode-red-dashboard\n\nRef.\nhttps://pdacontrolen.com/tutorial-esp8266-and-node-red-mqtt-gpio/",
+        "x": 240,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "674bc8a1dad5d1af",
+        "type": "function",
+        "z": "17db4b7616a71fc0",
+        "name": "Process Data",
+        "func": "var inputString = msg.payload;\nvar jsonString = inputString.replace(/'/g, '\"');\n\nvar data = JSON.parse(jsonString);\n\nmsg.payload = {\n    Temp: data.temperature,\n    pH: data.pH,\n    TDS: data.TDS,\n    oxygen: data.oxygen\n};\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 500,
+        "y": 320,
+        "wires": [
+            [
+                "7c1d3b0207989ec3",
+                "57ca59a3e7dbc540",
+                "34b071c194617506"
+            ]
+        ]
+    },
+    {
+        "id": "7c1d3b0207989ec3",
+        "type": "debug",
+        "z": "17db4b7616a71fc0",
+        "name": "debug 2",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 720,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "be5187269d900986",
+        "type": "firebase-out",
+        "z": "17db4b7616a71fc0",
+        "name": "",
+        "database": "7be4946d8e0d9b73",
+        "path": "Devices/Device01/log",
+        "pathType": "str",
+        "priority": 1,
+        "queryType": "push",
+        "x": 1020,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "4172cf75bf3119c1",
+        "type": "inject",
+        "z": "17db4b7616a71fc0",
+        "name": "Inject Data",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{'temperature':28.4,'pH':7.2,'TDS':435, 'oxygen':3}",
+        "payloadType": "str",
+        "x": 260,
+        "y": 200,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "0cc26f67b5b895c3",
+        "type": "debug",
+        "z": "17db4b7616a71fc0",
+        "name": "debug 3",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 480,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "8622e8b7e6997864",
+        "type": "mqtt in",
+        "z": "17db4b7616a71fc0",
+        "name": "MQTT In",
+        "topic": "sen/randomNumber",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "ab7b13ae.dc7ad8",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 260,
+        "y": 300,
+        "wires": [
+            [
+                "0cc26f67b5b895c3",
+                "674bc8a1dad5d1af"
+            ]
+        ]
+    },
+    {
+        "id": "57ca59a3e7dbc540",
+        "type": "firebase-out",
+        "z": "17db4b7616a71fc0",
+        "name": "",
+        "database": "7be4946d8e0d9b73",
+        "path": "Devices/Device01/rt_values",
+        "pathType": "str",
+        "priority": 1,
+        "queryType": "update",
+        "x": 1050,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "24827d264aae98b3",
+        "type": "comment",
+        "z": "17db4b7616a71fc0",
+        "name": "",
+        "info": "URL : https://embedded-product-dev-default-rtdb.firebaseio.com/\nAPI : AIzaSyC8c3DF8JW4ifg3cadoySUkGKcVtj469lY",
+        "x": 880,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "34b071c194617506",
+        "type": "function",
+        "z": "17db4b7616a71fc0",
+        "name": "Add Timestamp",
+        "func": "var data = msg.payload;\n\nvar currentDate = new Date();\n\nvar day = currentDate.getDate().toString().padStart(2, '0');\nvar month = (currentDate.getMonth() + 1).toString().padStart(2, '0');\nvar year = currentDate.getFullYear();\nvar hours = currentDate.getHours().toString().padStart(2, '0');\nvar minutes = currentDate.getMinutes().toString().padStart(2, '0');\nvar seconds = currentDate.getSeconds().toString().padStart(2, '0');\n\n// Create the formatted date string\nvar formattedDate = `${day}:${month}:${year}_${hours}:${minutes}:${seconds}`;\n\nmsg.payload = {\n    time: formattedDate,\n    Temp: data.Temp,\n    pH: data.pH,\n    TDS: data.TDS,\n    oxygen: data.oxygen\n};\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 740,
+        "y": 400,
+        "wires": [
+            [
+                "be5187269d900986",
+                "26c77a2cb4dbde9c"
+            ]
+        ]
+    },
+    {
+        "id": "26c77a2cb4dbde9c",
+        "type": "debug",
+        "z": "17db4b7616a71fc0",
+        "name": "debug 24",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 960,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "d7ecd49d67622ab7",
+        "type": "inject",
+        "z": "4179d1f227fc6454",
+        "name": "Test12",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": "5",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 370,
+        "y": 120,
+        "wires": [
+            [
+                "2b3af608d589049c"
+            ]
+        ]
+    },
+    {
+        "id": "2b3af608d589049c",
+        "type": "debug",
+        "z": "4179d1f227fc6454",
+        "name": "debug 25",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 660,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "5fd8198685bd90e8",
+        "type": "firebase-in",
+        "z": "4179d1f227fc6454",
+        "name": "",
+        "constraint": {},
+        "database": "",
+        "listenerType": "value",
+        "outputType": "auto",
+        "path": "test/stream",
+        "useConstraint": false,
+        "x": 420,
+        "y": 240,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "71d91389e8d99342",
+        "type": "firebase-get",
+        "z": "4179d1f227fc6454",
+        "name": "",
+        "constraint": {},
+        "database": "",
+        "outputType": "auto",
+        "passThrough": false,
+        "path": "topic",
+        "pathType": "msg",
+        "useConstraint": false,
+        "x": 610,
+        "y": 240,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "75f53323e456885f",
+        "type": "firebase-out",
+        "z": "4179d1f227fc6454",
+        "name": "",
+        "database": "",
+        "path": "topic",
+        "pathType": "msg",
+        "priority": 1,
+        "queryType": "none",
+        "x": 410,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "618ea3b342574bac",
+        "type": "on-disconnect",
+        "z": "4179d1f227fc6454",
+        "name": "",
+        "database": "",
+        "inputs": 1,
+        "outputs": 0,
+        "path": "topic",
+        "pathType": "msg",
+        "sendMsgEvent": "",
+        "queryType": "msg",
+        "x": 620,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "1f37b5d8c2fccd02",
+        "type": "comment",
+        "z": "4179d1f227fc6454",
+        "name": "",
+        "info": "",
+        "x": 820,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "4d5d32a8583845fb",
+        "type": "function",
+        "z": "4179d1f227fc6454",
+        "name": "function 12",
+        "func": "\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 430,
+        "y": 440,
+        "wires": [
+            [
+                "cf07fa598ca7c474"
+            ]
+        ]
+    },
+    {
+        "id": "7f74e341386abea8",
+        "type": "inject",
+        "z": "4179d1f227fc6454",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 180,
+        "y": 440,
+        "wires": [
+            [
+                "4d5d32a8583845fb"
+            ]
+        ]
+    },
+    {
+        "id": "cf07fa598ca7c474",
+        "type": "debug",
+        "z": "4179d1f227fc6454",
+        "name": "debug 26",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 700,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "29cdd6ed6a1933b4",
+        "type": "function",
+        "z": "2069bda24c7c7ed8",
+        "name": "Process Data",
+        "func": "\n\nvar inputString = msg.payload;\nvar jsonString = inputString.replace(/'/g, '\"');\nvar data = JSON.parse(jsonString);\n\nfunction checkNegative(value) {\n    return value < 0 ? 'NC' : value;\n}\n\n\nmsg.payload = {\n    Temp: checkNegative(data.t),\n    pH: checkNegative(data.p),\n    TDS: checkNegative(data.T),\n    ox: data.o,\n};\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 480,
+        "y": 320,
+        "wires": [
+            [
+                "ace802b9380be149",
+                "d7b2d5a8dde65603",
+                "6ba0b322bb339263"
+            ]
+        ]
+    },
+    {
+        "id": "ace802b9380be149",
+        "type": "debug",
+        "z": "2069bda24c7c7ed8",
+        "name": "debug 2",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 720,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "3cb34b9255a199f7",
+        "type": "inject",
+        "z": "2069bda24c7c7ed8",
+        "name": "Inject Data",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": "5",
+        "topic": "",
+        "payload": "{'t':12790,'p':7.2,'T':435, 'o':300}",
+        "payloadType": "str",
+        "x": 100,
+        "y": 200,
+        "wires": [
+            [
+                "32d4a7dff53c3f72",
+                "29cdd6ed6a1933b4"
+            ]
+        ]
+    },
+    {
+        "id": "32d4a7dff53c3f72",
+        "type": "debug",
+        "z": "2069bda24c7c7ed8",
+        "name": "debug 3",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 320,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "6ba0b322bb339263",
+        "type": "function",
+        "z": "2069bda24c7c7ed8",
+        "name": "Add Timestamp",
+        "func": "var data = msg.payload;\n\nvar currentDate = new Date();\n\nvar day = currentDate.getDate().toString().padStart(2, '0');\nvar month = (currentDate.getMonth() + 1).toString().padStart(2, '0');\nvar year = currentDate.getFullYear();\nvar hours = currentDate.getHours().toString().padStart(2, '0');\nvar minutes = currentDate.getMinutes().toString().padStart(2, '0');\nvar seconds = currentDate.getSeconds().toString().padStart(2, '0');\n\nvar formattedDate = `${day}:${month}:${year}_${hours}:${minutes}:${seconds}`;\n\nmsg.payload = { \n    time: formattedDate,\n    Temp: data.Temp,\n    pH: data.pH,\n    TDS: data.TDS,\n    ox: data.ox\n};\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 740,
+        "y": 400,
+        "wires": [
+            [
+                "d8b9326eb54a2b81",
+                "00195d7176b5be24"
+            ]
+        ]
+    },
+    {
+        "id": "00195d7176b5be24",
+        "type": "debug",
+        "z": "2069bda24c7c7ed8",
+        "name": "debug 24",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 960,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "d8b9326eb54a2b81",
+        "type": "firebase-out",
+        "z": "2069bda24c7c7ed8",
+        "name": "",
+        "database": "7be4946d8e0d9b73",
+        "path": "Devices/Rumesh/log",
+        "pathType": "str",
+        "priority": 1,
+        "queryType": "push",
+        "x": 1020,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "d7b2d5a8dde65603",
+        "type": "firebase-out",
+        "z": "2069bda24c7c7ed8",
+        "name": "",
+        "database": "7be4946d8e0d9b73",
+        "path": "Devices/Rumesh/RT",
+        "pathType": "str",
+        "priority": 1,
+        "queryType": "update",
+        "x": 1030,
+        "y": 320,
+        "wires": []
+    }
+]
