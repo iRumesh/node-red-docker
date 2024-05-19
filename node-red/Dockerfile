@@ -4,11 +4,11 @@ FROM nodered/node-red:latest-18-minimal
 # of your added nodes modules for Node-RED
 WORKDIR /data
 COPY package.json /data
-#RUN npm install --unsafe-perm --no-update-notifier --no-fund --only=production
+RUN npm install --unsafe-perm --no-update-notifier --no-fund --only=production
 RUN npm install
 
 # Install node-red-themes
-#RUN npm install @node-red-contrib-themes/theme-collection
+RUN npm install @node-red-contrib-themes/theme-collection
 
 WORKDIR /usr/src/node-red
 
