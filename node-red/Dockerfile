@@ -8,7 +8,7 @@ RUN npm install --unsafe-perm --no-update-notifier --no-fund --only=production
 RUN npm install
 
 # Install node-red-themes
-RUN npm install @node-red-contrib-themes/theme-collection
+#RUN npm install @node-red-contrib-themes/theme-collection
 
 WORKDIR /usr/src/node-red
 
