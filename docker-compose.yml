@@ -1,23 +1,17 @@
-version: '3.9'
+version: '3.8'
 
 services:
-
-  #https://nodered.org/docs/getting-started/docker
-  # nodered
   nodered:
-    build: ./node-red
-    environment:
-      - TZ=Asia/Colombo
+    image: nodered/node-red:latest
+    container_name: nodered
     ports:
       - "1880:1880"
+    environment:
+      - NODE_RED_USERNAME=${NODE_RED_USERNAME}
+      - NODE_RED_PASSWORD=${NODE_RED_PASSWORD}
     volumes:
-      - node-red-data:/data
-    networks:
-      - iot-network
-
-networks:
-  iot-network: 
-    driver: bridge
+      - ./node-red:/data
+    restart: unless-stopped
 
 volumes:
-  node-red-data:
+  nodered_data:
